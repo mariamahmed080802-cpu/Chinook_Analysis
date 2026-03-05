@@ -197,7 +197,7 @@ GROUP BY C.Country
 ORDER BY Revenue DESC
 
 
--- Problem Statement: We’ve just signed a deal with a new boutique label that specializes in Jazz, Blues, Pop, and Rock. We have budget to promote three of these four genres in the USA.
+-- Problem Statement: Weâ€™ve just signed a deal with a new boutique label that specializes in Jazz, Blues, Pop, and Rock. We have budget to promote three of these four genres in the USA.
 -- The highest sales genres in USA 
 -- Rock is the highest sales genre in USA 
 -- From those four genres, the highest 3 are Rock, Jazz, and Blues otherwise the revenue of Jazz and Blues is weak
@@ -575,7 +575,7 @@ ORDER BY Revenue DESC
 
 
 
--- Are the high sales orders from loyal customers?
+-- Are the high sales orders coming from customers who consistently have high purchase amounts?
 -- The orders that caused the spike were special case
 
 SELECT 
@@ -684,6 +684,7 @@ SELECT *
 FROM GenreWithLag
 WHERE Revenue < Prev_Revenue
 ORDER BY Year, Month
+
 
 
 
