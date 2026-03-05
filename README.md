@@ -13,3 +13,14 @@ The analysis ultimately answers key business questions such as:
 * How do customers behave and how loyal are they?
 * What factors drive monthly revenue changes?
 
+
+## Tools & Technologies
+SQL (Data Exploration & Business Analysis)
+
+SQL was used to explore the database, and answer analytical business questions. The main tasks performed with SQL include:
+* Exploring the Chinook relational database
+* Creating analytical queries for KPIs and insights
+* Performing aggregations and window function analysis
+* Identifying trends in sales, customers, and product performance
+* Calculating key metrics such as:
+** Total Revenue
